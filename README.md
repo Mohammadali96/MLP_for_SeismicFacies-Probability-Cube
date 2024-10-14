@@ -112,7 +112,7 @@ After training the network at the well locations, a relationship between the inp
 
 1) Export your seismic attributes frm Petrel in GSLIB format
 
-<img src="nrr3.png" width = "700" height = "340">
+<img src="nrr3.png" width = "500" height = "340">
 
 Sections of three seismic attributes to indicate their sensitivity to channels. 
 
@@ -173,6 +173,6 @@ def write_gslib(of:pd.DataFrame, filename:str):
 
 ```
 
-<img src="nrr6.JPG" width = "700" height = "340">
+<img src="nrr6.jpg" width = "700" height = "340">
 
 A depth section from final probability cube of three different facies resulting from neural network process. The depth section located in zone Sarvak 4–7 is such that the probability of shale and shaly-limestone facies is zero.
